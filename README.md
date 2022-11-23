@@ -30,7 +30,7 @@ namespace MattNethercott
             };
         }
 
-        public static Technology WhatAmICurrentlyLearning()
+        public static Technology GetWhatAmICurrentlyLearning()
         {
             return Technology.Kubernetes;
         }
