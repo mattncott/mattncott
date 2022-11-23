@@ -5,7 +5,7 @@ You should checkout my [Github Pages](https://mattncott.github.io/)
 ```c#
 namespace MattNethercott
 {
-    public class About: Me
+    public static class About: Me
     {
         public static IWorkPlace GetCurrentWorkPlace()
         {
