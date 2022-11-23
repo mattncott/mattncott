@@ -1,4 +1,46 @@
-### Hi there 👋
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hi+I'm+Matt!)](https://git.io/typing-svg)
+
+You should checkout my [Github Pages](https://mattncott.github.io/)
+
+```c#
+namespace MattNethercott
+{
+    public class About: Me
+    {
+        public static IWorkPlace GetCurrentWorkPlace()
+        {
+            return new WorkPlace
+            {
+                Company = "Blue Prism",
+                Position = "Junior Developer"
+            };
+        }
+
+        public static IEnumerable<Technology> GetCurrentlyUsedTechnologies()
+        {
+            return new List<Technology>
+            {
+                Technology.Net,
+                Technology.VbNet,
+                Technology.ReactJS,
+                Technology.JavaScript,
+                Technology.TypeScript,
+                Technology.Docker,
+                Technology.SQL
+            };
+        }
+
+        public static Technology WhatAmICurrentlyLearning()
+        {
+            return Technology.Kubernetes;
+        }
+
+        public static string GetMyGoal()
+            => "To one day become a Software Architect";
+
+    }
+}
+```
 
 <!--
 **mattncott/mattncott** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
