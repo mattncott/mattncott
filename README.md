@@ -26,7 +26,7 @@ namespace MattNethercott
                 Technology.SQL
             };
 
-        public static Technology WhatAmICurrentlyLearning()
+        public static Technology GetWhatAmICurrentlyLearning()
             => Technology.Kubernetes;
 
         public static string GetMyGoal()
