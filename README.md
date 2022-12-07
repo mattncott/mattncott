@@ -5,20 +5,17 @@ You should checkout my [Github Pages](https://mattncott.github.io/)
 ```c#
 namespace MattNethercott
 {
-    public static class About: Me
+    public static class About : Me
     {
         public static IWorkPlace GetCurrentWorkPlace()
-        {
-            return new WorkPlace
+            => new WorkPlace
             {
                 Company = "Blue Prism",
                 Position = "Junior Developer"
             };
-        }
 
         public static IEnumerable<Technology> GetCurrentlyUsedTechnologies()
-        {
-            return new List<Technology>
+            => new List<Technology>
             {
                 Technology.Net,
                 Technology.VbNet,
@@ -28,12 +25,9 @@ namespace MattNethercott
                 Technology.Docker,
                 Technology.SQL
             };
-        }
 
         public static Technology WhatAmICurrentlyLearning()
-        {
-            return Technology.Kubernetes;
-        }
+            => Technology.Kubernetes;
 
         public static string GetMyGoal()
             => "To one day become a Software Architect";
