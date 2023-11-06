@@ -23,7 +23,8 @@ namespace MattNethercott
                 Technology.JavaScript,
                 Technology.TypeScript,
                 Technology.Docker,
-                Technology.SQL
+                Technology.SQL,
+                Technology.Azure
             };
 
         public static Technology GetWhatAmICurrentlyLearning()
