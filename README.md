@@ -10,8 +10,8 @@ namespace MattNethercott
         public static IWorkPlace GetCurrentWorkPlace()
             => new WorkPlace
             {
-                Company = "Blue Prism",
-                Position = "Junior Developer"
+                Company = "SS&C Blue Prism",
+                Position = "Software Engineer"
             };
 
         public static IEnumerable<Technology> GetCurrentlyUsedTechnologies()
